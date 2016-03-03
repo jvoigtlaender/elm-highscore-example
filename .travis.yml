@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '4.1'
+script: bash ./deploy.sh
+env:
+  global:
+  - "-GH_REF": github.com/jvoigtlaender/elm-highscore-example
+  - secure: 04KHLS6L0slauShyej5zfxwYwIhffPMDXhG2EKxecEx0lxpEvHRq+PVUsDmDM8aYnsto81IzwppAFb+ZKenk284cgjcVyME7ozwMS2UYvoG2Z8qxcgF2KWeBReHeePfRPKr4iQGpW87E7zoaJUUDeUEM4jmSUgq9dX+f1NqnPXizFfD0io7LbJRQDFe8rSy55aDBQ7MaDxM0Ls9Z+HhgIB7GaQ+2nI7H/0fX+xGkWRQXLzhFghbXm+qNgLCNMueHr1tCINoHnjZ8tU5btBS3OmG7Jn+M1Qx/23CpXsj/UsuMElOs6gYwF5OikgRvKdu4yNotdVKEjWTF66rR1R1J2RicVt1UAZGrNEPH6OEhCydRm9H94oyqhUCuMiYOvBu/BnjuZzweZVMc0V69UV7JRs+jnHgL9halEvbkeDEmlR9CK6Y/xyhHH3TSiHtjvOkNlel0XjXdl1kXLJovoV0nA3Y/dC8hJl/Os3J9GAyWMeBJuxn/yEeEWXwdtNLnfn666CKov0DjQK8G45Vrpj8IaZAzMMgbOztVw6J21gPFnpG5BjHYLfK8iOP4zjF3Ddvkfl6yFeUA3Hx4qNZz5bBndSnoo9DdbNd33gl8LcMCJzFYT4ib9jr4lL//cNj7lfzoNcJhHdMpGJRVkTfF0+twrxCHluIJ7Gc5CyxiR6k1xKY=
