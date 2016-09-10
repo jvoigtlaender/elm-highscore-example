@@ -1,10 +1,10 @@
 rm -rf out || exit 0;
 
 elm-package install --yes
-libsysconfcpus/bin/sysconfcpus -n $CPUNUM elm-make --yes
+sysconfcpus/bin/sysconfcpus -n $CPUNUM elm-make --yes
 
 mkdir out
-libsysconfcpus/bin/sysconfcpus -n $CPUNUM elm-make Main.elm --output out/Main.html --yes
+sysconfcpus/bin/sysconfcpus -n $CPUNUM elm-make Main.elm --output out/Main.html --yes
 cd out
 
 git init
